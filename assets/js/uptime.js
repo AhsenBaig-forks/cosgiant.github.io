@@ -15,7 +15,7 @@ $(document).ready(function () {
         github: {
             org: 'cosgiant',
             repo: 'cosgiant.github.io',
-            labels: 'announcement',
+            labels: 'announcement', // NOTE: labels - Logical AND operator so any added will be an AND condition.
             lastUpdated: getGitHubLastUpdatedDate
         }
     };
